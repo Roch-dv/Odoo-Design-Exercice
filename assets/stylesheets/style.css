@@ -262,12 +262,12 @@ a:hover {
   padding: 9px 19px; }
 
 .line3 {
-  height: 72px;
+  height: 80px;
   position: absolute;
   background-color: #FFFFFF;
-  top: -4.1vw;
-  right: 0.1vw;
-  width: 101vw;
+  top: -0.9vw;
+  right: 0vw;
+  width: 202vw;
   -webkit-transform: rotate(-3deg);
   z-index: 0; }
 
