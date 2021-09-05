@@ -1,0 +1,569 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/stylesheets/style.css"/>
+    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" data-auto-replace-svg="nest"></script>
+
+
+    <!-- !!!!! TO ADAPT !!!!! -->
+    <!-- <link rel="icon" href="images/" type="image/png"> -->
+
+    <title>Odoo</title>
+  </head>
+  <body>
+    <!-------- HEADER --------->
+    <div class="header bg-primary pb-2 position-relative">
+      <div class="navbar">
+        <div class="navbar-items container d-flex justify-content-between py-3 border-bottom border-light">
+          <a href="#" class="opacity-100"><img class="navbar-logo" src="assets/images/odoo-white.svg" alt="Odoo"></a>
+
+          <div class="navbar-links d-flex justify-content-between">
+            <a class="mx-3" href="#">Home</a>
+            <a class="mr-3" href="#">Products</a>
+            <a class="mr-3" href="#">Pages</a>
+            <a class="mr-3" href="#">App</a>
+            <a class="mr-3" href="#">Docs</a>
+          </div>
+
+          <div class="navbar-actions d-flex">
+            <a class="mr-3 align-self-center" href="#">Sign in</a>
+            <a class="btn btn-light" href="#"><i class="pr-2 fas fa-shopping-bag"></i>Buy now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="header-content container d-flex py-5 justify-content-between">
+
+        <!-------- HEADER LEFT --------->
+
+        <div class="header-left pt-5 pb-4">
+          <div class="infos pb-4">
+            <h1 class="pb-2 text-white">Development done right</h1>
+            <p class="pb-2 text-white">Build a beautiful, modern website with flexible components built from scratch.</p>
+            <a href="https://www.odoo.com/fr_FR/app/website" target="_blank" class="btn btn-light px-4" >Get started +</a>
+          </div>
+          <div class="links d-flex mt-3">
+            <ul class="d-flex pl-0">
+              <li class="align-self-center"><h5 class="mb-0 text-white">Trusted by:</h5></li>
+              <li><a href="https://www.google.com/" target=”_blank”><img src="assets/images/google-white.svg" alt="Google"></a></li>
+              <li><a href="https://www.spotify.com/" target=”_blank”><img src="assets/images/spotify-white.svg" alt="Spotify"></a></li>
+              <li><a href="https://www.Airbnb.com/" target=”_blank”><img src="assets/images/airbnb-white.svg" alt="Airbnb"></a></li>
+              <li><a href="https://www.PayPal.com/" target=”_blank”><img src="assets/images/paypal-white.svg" alt="PayPal"></a></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-------- HEADER RIGHT --------->
+
+        <div class="header-right">
+          <div class="card bg-white">
+            <div class="card-top d-flex justify-content-between">
+              <span class="ml-3 mb-0 mt-3 font-weight-bold align-self-center">Manage cards</span>
+              <a href="#" class="btn btn-light mr-3 mt-3 bg-white border">Add new</a>
+            </div>
+
+            <div class="bank-card rounded m-3 position-relative">
+              <img class="position-absolute" src="assets/images/mastercard.svg" alt="Mastercard">
+              <p class="active-btn text-white font-weight-normal position-absolute py-1 px-2 bg-success rounded">Active</p>
+              <p class="card-number text-white position-absolute font-weight-light">CARD NUMBER</p>
+              <span class="number font-weight-normal text-white position-absolute">4358  -  7421  -  9256  -  6682</span>
+              <p class="p-name text-white position-absolute">NAME</p>
+              <span class="span-name font-weight-normal text-white position-absolute">John Snow</span>
+              <p class="p-date text-white position-absolute">EXPIRY DATE</p>
+              <span class="span-date font-weight-normal text-white position-absolute">11/23</span>
+            </div>
+
+            <div class="card-bottom">
+              <div class="card-infos border-bottom mx-3">
+                <div class="d-flex justify-content-between ">
+                  <span class="font-weight-bold">Starbucks</span>
+                  <span class="font-weight-bold">$5,50 USD</span>
+                </div>
+                <div class="card-status">
+                  <p>Pending - San Francisco, United States</p>
+                </div>
+              </div>
+              <div class="card-infos border-bottom mx-3 mt-3">
+                <div class="d-flex justify-content-between ">
+                  <span class="font-weight-bold">Nike Sports</span>
+                  <span class="font-weight-bold">$129,00 USD</span>
+                </div>
+                <div class="card-status">
+                  <p>Pending - Lisbon, Portugal</p>
+                </div>
+              </div>
+              <div class="view-all mx-3 mt-2">
+                <a href="#">View all <i class="fas fa-chevron-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="line1"></div>
+    </div>
+
+    <!-------- MAIN --------->
+    <div class="main my-5">
+      <!-------- FIRST CONTAINER  --------->
+      <div class="first-conainer container py-5">
+        <!-------- ROW 1 TOOLS --------->
+        <div class="tools row mt-5 py-5">
+          <div class="col mr-5 p-4 border rounded shadow-sm position-relative">
+            <div class="content">
+              <h4 class="font-weight-bold">Awesome projects</h4>
+              <div class="content-item-1 d-flex justify-content-between align-items-center border-bottom mt-3 position-relative">
+                <span class="font-weight-bold">Create the new logo</span>
+                <p>3:50 <i class="fas fa-chevron-right pl-2"></i></p>
+              </div>
+              <div class="content-item-2 d-flex justify-content-between align-items-center border-bottom mt-4 position-relative">
+                <span class="font-weight-bold">Set up the color palette</span>
+                <p>4:00 <i class="fas fa-chevron-right pl-2"></i></p>
+              </div>
+              <div class="content-item-3 d-flex justify-content-between align-items-center border-bottom mt-4 mb-2 position-relative">
+                <span class="font-weight-bold">Wireframe and prototype</span>
+                <p>6:50 <i class="fas fa-chevron-right pl-2"></i></p>
+              </div>
+            </div>
+            <div class="image position-absolute">
+              <img class="rounded" src="assets/images/img_01.jpg" alt="Group-picture">
+              <a class="position-absolute btn btn-light" href="#">Play video <i class="pl-2 fas fa-play"></i></a>
+            </div>
+          </div>
+
+          <div class="text col align-self-center m-3 pl-5">
+            <h5 class="small-button bg-warning text-white font-weight-bold py-1 px-2 mb-2">Tools</h5>
+            <h3 class="mb-3 pt-2" style="line-height: 32px;">We build for designers and developers</h3>
+            <p>Get components and examples, including tons of variables that will help you grow your business.</p>
+          </div>
+        </div>
+        <!-------- ROW 2 FEATURES --------->
+        <div class="features row mt-5 py-5">
+
+          <div class="text col align-self-center m-3 pr-5">
+            <h5 class="small-button bg-success text-white font-weight-bold py-1 px-2 mb-2">Features</h5>
+            <h4 class="font-weight-bold" style="line-height: 32px;">Get components and examples, including tons of variables that will help you grow your business.</h4>
+            <ul class="p-0 pt-4">
+              <li><p class="font-weight-normal"><i class="fas fa-check-square pr-2"></i>Perfect for modern startups</p></li>
+              <li><p class="font-weight-normal"><i class="fas fa-check-square pr-2"></i>Fully customizable and scalable</p></li>
+            </ul>
+          </div>
+
+          <div class="image col rounded position-relative mx-3">
+            <a href="#" class="position-absolute btn btn-light">Play video <i class="pl-2 fas fa-play"></i></a>
+          </div>
+
+        </div>
+        <!-------- ROW 3 TECHNOLOGY --------->
+        <div class="technology row mt-5 py-5">
+          <div class="cards col align-items-center d-flex">
+
+            <div class="left-cards">
+              <div class="jimmy-card rounded shadow-sm border">
+                <img class="rounded" src="assets/images/person_03.jpg" alt="Jimmy Hendrix">
+                <div class="jimmy-card-infos d-flex justify-content-between align-items-center">
+                  <div class="d-flex align-items-center">
+                    <h6 class="p-1 mx-2 mb-0 text-white bg-warning rounded-circle">JH</h6>
+                    <h6 class="mb-0 font-weight-bold">Jimmy Hendrix</h6>
+                  </div>
+                  <h5 class="mb-0"><i class="far fa-heart mr-2"></i></h5>
+                </div>
+              </div>
+              <div class="components-card align-items-center border rounded shadow-sm d-flex mt-3">
+                <h5 class="mb-0 p-2 mx-2 bg-success text-white rounded-circle "><i class="fas fa-check-square"></i></h5>
+                <div class="mr-2">
+                  <h5 class="mb-1 font-weight-bold">300+ components</h5>
+                  <h6 class="mb-0">Built to be customized.</h6>
+                </div>
+              </div>
+            </div>
+
+            <div class="right-cards">
+              <div class="airbnb-card rounded shadow-sm border ml-3">
+                <img class="my-4" src="assets/images/airbnb.svg" alt="Airbnb">
+                <h5 class="mb-0">
+                  <i class="far fa-star text-warning"></i>
+                  <i class="far fa-star text-warning"></i>
+                  <i class="far fa-star text-warning"></i>
+                  <i class="far fa-star text-warning"></i>
+                  <i class="far fa-star text-muted"></i>
+                </h5>
+                <h5 class="mb-1 mt-4 font-weight-bold">4.95 out of 5 stars</h5>
+                <h6 class="mb-4">from 23 reviews</h6>
+              </div>
+              <div class="website-card rounded shadow-sm border ml-3 mt-3">
+                <img class="rounded-circle my-3" src="assets/images/company_01.png" alt="company-logo">
+                <h5 class="mb-5 font-weight-bold">Website UI Kit</h5>
+                <div class="avatars position-relative">
+                  <img class="avatar1 rounded-circle position-absolute" src="assets/images/person_01.jpg" alt="Person">
+                  <img class="avatar2 rounded-circle position-absolute" src="assets/images/person_02.jpg" alt="Person">
+                  <img class="avatar3 rounded-circle position-absolute" src="assets/images/person_03.jpg" alt="Person">
+                </div>
+                <h6 class="mt-5 mb-3 text-muted">
+                  <i class="pr-2 fas fa-paperclip"></i>
+                  <i class="pr-2 fas fa-eye"></i>
+                  <i class="far fa-heart"></i>
+                </h6>
+              </div>
+            </div>
+          </div>
+
+          <div class="text col align-self-center m-3 pl-5">
+            <h5 class="small-button bg-primary text-white font-weight-bold py-1 px-2 mb-2">Technology</h5>
+            <h3 class="mb-3 pt-2" style="line-height: 32px;">We use the latest technologies on the market</h3>
+            <p>Get components and examples, including tons of variables that will help you grow your business.</p>
+            <a class="font-weight-normal" href="#"><h5>See case studies</h5></a>
+          </div>
+
+        </div>
+        <!-------- ROW 4 INSTALL --------->
+        <div class="install row mt-5 py-5">
+
+          <div class="text col m-3 pr-5">
+            <h5 class="small-button bg-warning text-white font-weight-bold py-1 px-2 mb-2">Easy to install</h5>
+            <h3 class="mb-3 pt-2" style="line-height: 32px;">Download, install and run.</h3>
+            <p>Get components and examples, including tons of variables that will help you grow your business.</p>
+            <div class="apps-image d-flex pt-3">
+              <a href="#" class="opacity-100"><img class="pl-1" src="assets/images/app-store.png" alt="App-Store"></a>
+              <a href="#" class="opacity-100"><img class="pl-1" src="assets/images/play-store.png" alt="Play-Store"></a>
+            </div>
+          </div>
+
+          <div class="image col rounded position-relative mx-3">
+            <a href="#" class="position-absolute btn btn-light">Play video <i class="pl-2 fas fa-play"></i></a>
+          </div>
+
+        </div>
+        <!-------- BOTTOM FIRST CONTAINER  --------->
+        <div class="bottom-first-container mt-5 py-5">
+          <div class="dark-banner bg-dark d-flex justify-content-between align-items-center p-5">
+            <div class="left-infos">
+              <h4 class="text-white font-weight-bold">Infinite solutions</h4>
+              <h5 class="text-white" style="line-height: 17px;">Intuitive markup, powerful and lightning-fast build tools, everything you need to turn your ideas into incredible products.</h5>
+            </div>
+            <a href="#" class="btn btn-light"><h5 class="mb-0">Learn more<i class="pl-3 fas fa-arrow-right"></i></h5></a>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-------- SECOND CONTAINER  --------->
+      <div class="second-container position-relative mb-5">
+        <div class="awards container pt-5">
+          <h5 class="small-button bg-primary text-white font-weight-bold py-1 px-2 mb-4">Awards</h5>
+          <h4 class="font-weight-bold">Awards for design, creativity, and innovation on the Internet</h4>
+          <div class="cards pt-4">
+            <!--Carousel Wrapper-->
+            <div id="multi-items" class="carousel slide carousel-multi-item" data-ride="carousel">
+
+              <!--Slides-->
+              <div class="carousel-inner p-3" role="listbox">
+
+                <!--First slide-->
+                <div class="carousel-item active">
+
+                  <div class="col-md-3" style="float:left">
+                    <a href="#">
+                      <div class="awards-card bg-white rounded shadow-sm border px-3 ">
+                        <img class="my-4" src="assets/images/airbnb.svg" alt="Airbnb">
+                        <h5 class="mb-0">
+                          <i class="far fa-star text-warning"></i>
+                          <i class="far fa-star text-warning"></i>
+                          <i class="far fa-star text-warning"></i>
+                          <i class="far fa-star text-warning"></i>
+                          <i class="far fa-star text-muted"></i>
+                        </h5>
+                        <h5 class="mb-1 mt-4 text-black font-weight-bold">4.95 out of 5 stars</h5>
+                        <h6 class="mb-4 text-muted">from 23 reviews</h6>
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="col-md-3" style="float:left">
+                    <a href="#">
+                      <div class="awards-card bg-white rounded shadow-sm border px-4">
+                        <img class="my-4" src="assets/images/amazon.svg" alt="Amazon">
+                        <h5 class="mb-0 text-muted">They build modern-looking websites easily using Tabs.</h5>
+                        <h5 class="learn-more mb-4 mt-3 pb-1 text-black font-weight-bold">Learn more</h5>
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="col-md-3" style="float:left">
+                    <a href="#">
+                      <div class="awards-card bg-white rounded shadow-sm border px-4">
+                        <img class="my-4" src="assets/images/slack.svg" alt="Slack">
+                        <h5 class="mb-0 text-muted">They build modern-looking websites easily using Trello.</h5>
+                        <h5 class="learn-more mb-4 mt-3 pb-1 text-black font-weight-bold">Learn more</h5>
+                      </div>
+                    </a>
+                  </div>
+
+                   <div class="col-md-3" style="float:left">
+                    <a href="#">
+                      <div class="awards-card bg-white rounded shadow-sm border px-3 ">
+                        <img class="my-4" src="assets/images/spotify.svg" alt="Spotify">
+                        <h5 class="mb-0">
+                          <i class="far fa-star text-warning"></i>
+                          <i class="far fa-star text-warning"></i>
+                          <i class="far fa-star text-warning"></i>
+                          <i class="far fa-star text-warning"></i>
+                          <i class="far fa-star text-muted"></i>
+                        </h5>
+                        <h5 class="mb-1 mt-4 text-black font-weight-bold">4.95 out of 5 stars</h5>
+                        <h6 class="mb-4 text-muted">from 23 reviews</h6>
+                      </div>
+                    </a>
+                  </div>
+
+                </div>
+                <!--/.First slide-->
+
+                <!--Second slide-->
+                <div class="carousel-item">
+
+                  <div class="col-md-3" style="float:left">
+                    <a href="#">
+                      <div class="awards-card bg-white rounded shadow-sm border px-4">
+                        <img class="my-4" src="assets/images/paypal.svg" alt="PayPal">
+                        <h5 class="mb-0 text-muted">They build modern-looking websites easily using Docker.</h5>
+                        <h5 class="learn-more mb-4 mt-3 pb-1 text-black font-weight-bold">Learn more</h5>
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="col-md-3" style="float:left">
+                    <a href="#">
+                      <div class="awards-card bg-white rounded shadow-sm border px-3 ">
+                        <img class="my-4" src="assets/images/airbnb.svg" alt="Airbnb">
+                        <h5 class="mb-0">
+                          <i class="far fa-star text-warning"></i>
+                          <i class="far fa-star text-warning"></i>
+                          <i class="far fa-star text-warning"></i>
+                          <i class="far fa-star text-warning"></i>
+                          <i class="far fa-star text-muted"></i>
+                        </h5>
+                        <h5 class="mb-1 mt-4 text-black font-weight-bold">4.95 out of 5 stars</h5>
+                        <h6 class="mb-4 text-muted">from 23 reviews</h6>
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="col-md-3" style="float:left">
+                    <a href="#">
+                      <div class="awards-card bg-white rounded shadow-sm border px-4">
+                        <img class="my-4" src="assets/images/amazon.svg" alt="Amazon">
+                        <h5 class="mb-0 text-muted">They build modern-looking websites easily using Tabs.</h5>
+                        <h5 class="learn-more mb-4 mt-3 pb-1 text-black font-weight-bold">Learn more</h5>
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="col-md-3" style="float:left">
+                    <a href="#">
+                      <div class="awards-card bg-white rounded shadow-sm border px-4">
+                        <img class="my-4" src="assets/images/slack.svg" alt="Slack">
+                        <h5 class="mb-0 text-muted">They build modern-looking websites easily using Trello.</h5>
+                        <h5 class="learn-more mb-4 mt-3 pb-1 text-black font-weight-bold">Learn more</h5>
+                      </div>
+                    </a>
+                  </div>
+
+                </div>
+                <!--/.Second slide-->
+
+              </div>
+              <!--/.Slides-->
+
+              <!--Controls-->
+              <div class="controls-bottom text-center pt-3">
+                <a class="btn-floating" href="#multi-items" data-slide="prev"><i class="fas fa-chevron-left"></i></a>
+                <a class="btn-floating pl-3" href="#multi-items" data-slide="next"><i class="fas fa-chevron-right"></i></a>
+              </div>
+              <!--/.Controls-->
+
+            </div>
+            <!--/.Carousel Wrapper-->
+          </div>
+        </div>
+        <div class="line2"></div>
+      </div>
+
+
+      <!-------- THIRD CONTAINER  --------->
+      <div class="third-container">
+        <div class="faq container pt-5">
+          <h3 class="text-center mb-3 pt-2">Helpful answers</h3>
+          <p class="text-center mb-3">Start building fast, beautiful, and modern-looking websites in no time.</p>
+
+          <!------ ACCORDION ------>
+          <div class="faq-accordion d-flex py-4" id="faq-accordion-parent">
+            <!------ LEFT PART ------>
+            <div class="faq-accordion-left pr-2">
+              <div class="faq-accordion-item pb-3">
+                <button type="button" class="btn btn-light text-left shadow-sm d-flex justify-content-between align-items-center" data-toggle="collapse" data-target="#collapseOne">
+                  <div>
+                    <i class="far fa-file pr-2"></i>Which license do I need?
+                  </div>
+                  <i class="fas fa-plus text-muted"></i>
+                </button>
+                <div id="collapseOne" class="collapse m-3" data-parent="#faq-accordion-parent">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </div>
+              </div>
+              <div class="faq-accordion-item pb-3">
+                <button type="button" class="btn btn-light text-left shadow-sm d-flex justify-content-between align-items-center" data-toggle="collapse" data-target="#collapseTwo">
+                  <div>
+                    <i class="fas fa-unlock pr-2"></i>How do I get access to my database?
+                  </div>
+                  <i class="fas fa-plus text-muted"></i>
+                </button>
+                <div id="collapseTwo" class="collapse m-3" data-parent="#faq-accordion-parent">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </div>
+              </div>
+              <div class="faq-accordion-item pb-3">
+                <button type="button" class="btn btn-light text-left shadow-sm d-flex justify-content-between align-items-center" data-toggle="collapse" data-target="#collapseThree">
+                  <div>
+                    <i class="far fa-folder pr-2"></i>How do I see previous orders?
+                  </div>
+                  <i class="fas fa-plus text-muted"></i>
+                </button>
+                <div id="collapseThree" class="collapse m-3" data-parent="#faq-accordion-parent">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </div>
+              </div>
+            </div>
+            <!------ RIGHT PART ------>
+            <div class="faq-accordion-right pl-2 pb-">
+              <div class="faq-accordion-item pb-3">
+                <button type="button" class="btn btn-light text-left shadow-sm d-flex justify-content-between align-items-center" data-toggle="collapse" data-target="#collapseFour">
+                  <div>
+                    <i class="far fa-file pr-2"></i>Which license do I need?
+                  </div>
+                  <i class="fas fa-plus text-muted"></i>
+                </button>
+                <div id="collapseFour" class="collapse m-3" data-parent="#faq-accordion-parent">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </div>
+              </div>
+              <div class="faq-accordion-item pb-3">
+                <button type="button" class="btn btn-light text-left shadow-sm d-flex justify-content-between align-items-center" data-toggle="collapse" data-target="#collapseFive">
+                  <div>
+                    <i class="fas fa-unlock pr-2"></i>How do I get access to my database?
+                  </div>
+                  <i class="fas fa-plus text-muted"></i>
+                </button>
+                <div id="collapseFive" class="collapse m-3" data-parent="#faq-accordion-parent">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </div>
+              </div>
+              <div class="faq-accordion-item pb-3">
+                <button type="button" class="btn btn-light text-left shadow-sm d-flex justify-content-between align-items-center" data-toggle="collapse" data-target="#collapseSix">
+                  <div>
+                    <i class="far fa-folder pr-2"></i>How do I see previous orders?
+                  </div>
+                  <i class="fas fa-plus text-muted"></i>
+                </button>
+                <div id="collapseSix" class="collapse m-3" data-parent="#faq-accordion-parent">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </div>
+              </div>
+            </div>
+          </div>
+          <!------ /. ACCORDION ------>
+          <h4 class="text-center pt-3 mb-3">I want to start a new project.</h4>
+          <div class="call-to-actions d-flex justify-content-center pb-3">
+            <a href="#" class="btn btn-primary">Buy now <i class="pl-3 fas fa-arrow-right"></i></a>
+            <a href="#" class="btn btn-light">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!------ /. MAIN ------>
+
+    <!-------- FOOTER --------->
+    <div class="footer bg-dark mt-5 pt-5 position-relative">
+      <div class="line3"></div>
+      <div class="container pt-5">
+        <div class="footer-cta d-flex justify-content-between pb-4">
+          <div class="catch-line">
+            <h3 class="text-white pb-2">Brilliant solutions for your ideas</h3>
+            <p class="text-white">Modern-looking websites.</p>
+          </div>
+          <div class="call-to-actions d-flex align-items-center">
+            <a href="#" class="btn btn-light"><i class="pr-3 fas fa-book"></i>Documentation</a>
+            <a href="#" class="btn btn-primary ml-3">Purchase now</a>
+          </div>
+        </div>
+        <div class="footer-links d-flex justify-content-between py-4">
+          <div class="odoo-infos">
+            <a href="#" class="opacity-100"><img class="logo" src="assets/images/odoo-white.svg" alt="Odoo"></a>
+            <h6 class="text-white pt-3">Odoo attempts to bring the best development experience to designers and developers by offering the tools needed for having a quick and solid start in most web projects.</h6>
+            <div class="img-links d-flex">
+              <a href="#"></a>
+              <a href="#"></a>
+              <a href="#"></a>
+              <a href="#"></a>
+            </div>
+
+          </div>
+          <div class="web-links d-flex">
+            <div class="account-links flex-grow-1">
+              <h5><a href="#" class="font-weight-bold opacity-100">Account</a></h5>
+              <h6><a href="#">Profile</a></h6>
+              <h6><a href="#">Settings</a></h6>
+              <h6><a href="#">Billing</a></h6>
+              <h6><a href="#">Notifications</a></h6>
+            </div>
+            <div class="about-links flex-grow-1">
+              <h5><a href="#" class="font-weight-bold opacity-100">About</a></h5>
+              <h6><a href="#">Services</a></h6>
+              <h6><a href="#">Pricing</a></h6>
+              <h6><a href="#">Contact</a></h6>
+              <h6><a href="#">Careers</a></h6>
+            </div>
+            <div class="company-links flex-grow-1">
+              <h5><a href="#" class="font-weight-bold opacity-100">Company</a></h5>
+              <h6><a href="#">Community</a></h6>
+              <h6><a href="#">Help center</a></h6>
+              <h6><a href="#">Support</a></h6>
+            </div>
+          </div>
+        </div>
+        <div class="footer-credits d-flex justify-content-between pt-4">
+          <h6 class="text-white opacity-100"><span class="opacity-75">© </span>Odoo<span class="opacity-75">. All rights reserved</span></h6>
+          <div class="footer-terms d-flex text-center">
+            <h6 class="flex-grow-1"><a href="#">Terms</a></h6>
+            <h6 class="flex-grow-1"><a href="#">Privacy</a></h6>
+            <h6 class="flex-grow-1"><a href="#">Cookies</a></h6>
+          </div>
+        </div>
+
+      </div>
+
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H56lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+  </body>
+</html>

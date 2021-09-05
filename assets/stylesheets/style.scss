@@ -1,0 +1,517 @@
+// External libraries
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600&display=swap');
+
+
+// ---- Font ----
+$font-family-sans-serif: "Nunito Sans";
+
+$font-weight-base: 400;
+$font-size-base: 1rem * .6875;
+
+$h1-font-size:  $font-size-base * 2.7272;
+$h4-font-size:  $font-size-base * 1.2;
+$h5-font-size:  $font-size-base * 0.9;
+$h6-font-size:  $font-size-base * 0.8;
+
+// $line-height-base: 2;
+
+// ---- Colors ----
+$white:       #FFFFFF;
+$primary:     #0d6efd;
+$success:     #65bf91;
+$lightgrey :  #f7f7f7;
+$warning:     #ffc107;
+$dark-blue:   #050845;
+
+$theme-colors: (
+  "primary":  $primary,
+  "light":    $white,
+  "success":  $success,
+  "warning":  $warning,
+  "dark":     $dark-blue
+);
+
+$border-color:  $lightgrey;
+
+
+$link-color:                              $white;
+$link-decoration:                         none;
+$link-hover-color:                        $white;
+$link-hover-decoration:                   none;
+
+
+// ----------- General style -----------
+
+p, a {
+  opacity: 0.8;
+}
+
+a:hover {
+  opacity: 1;
+}
+
+.btn-light {
+  opacity: 1;
+
+  &:hover {
+    background-color: $lightgrey !important;
+    border-color: $lightgrey !important;
+  }
+}
+
+.btn-primary {
+  opacity: 1;
+}
+
+.container {
+  width: 66vw !important;
+}
+
+
+// ----------- HEADER -----------
+.navbar {
+  .navbar-items {
+
+    .navbar-logo {
+      width: 60px;
+    }
+
+    .navbar-actions {
+
+      .btn {
+        height: 31px;
+
+        .fa-shopping-bag {
+          font-size: 13px;
+        }
+      }
+    }
+  }
+}
+
+.header-left {
+
+  ul {
+    list-style: none;
+    li {
+      padding-right: 1.4vw;
+    }
+  }
+
+  img {
+    width: 50px;
+  }
+
+  a {
+    opacity: 1;
+  }
+
+  .infos {
+    width: 230px;
+    .btn {
+      height: 44px;
+      padding-top: 13px;
+    }
+  }
+}
+
+
+.header-right {
+  .card {
+    width: 255px;
+    height: 380px;
+    border-radius: 8px 8px 55px 8px;
+
+    .bank-card {
+      background-color: #0c0b42;
+      height: 140px;
+
+      .active-btn {
+        top: 10px;
+        right: 15px;
+        opacity: 1;
+      }
+      img {
+        width: 26px ;
+        top: 16px;
+        left: 15px;
+      }
+      .card-number {
+        left: 15px;
+        top: 50px;
+        font-size: 7px !important;
+      }
+      .number {
+        left: 15px;
+        top: 63px;
+        font-size: 14px !important;
+      }
+      .p-name {
+        left: 15px;
+        bottom: 21px;
+        font-size: 7px !important;
+      }
+      .span-name {
+        left: 15px;
+        bottom: 20px;
+      }
+      .p-date {
+        left: 120px;
+        bottom: 21px;
+        font-size: 7px !important;
+      }
+      .span-date {
+        left: 120px;
+        bottom: 20px;
+      }
+    }
+    .card-bottom {
+      .view-all {
+        a {
+          color: #0d6efd !important;
+          border-bottom: 1px dotted #0d6efd;
+          .fa-chevron-right {
+            font-size: 8px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.line1 {
+  height: 200px;
+  position: absolute;
+  background-color: inherit;
+  bottom: -2.7vw;
+  right: 0.3vw;
+  width: 101vw;
+  -webkit-transform: rotate(-3deg);
+  z-index: -1;
+}
+
+// ----------- MAIN -----------
+.small-button {
+  width: fit-content;
+  border-radius: 20px;
+}
+// ----------- FIRST CONTAINER -----------
+.first-conainer {
+// ---------- ROW 1 TOOLS ----------
+  .tools {
+    .fa-chevron-right {
+      font-size: 8px;
+      opacity: 0.8;
+    }
+    .content-item-1:before {
+      position: absolute;
+      background: $warning;
+      height: 1px;
+      content: '';
+      width: 25%;
+      bottom: -1px;
+      left: 0;
+    }
+    .content-item-2:before {
+      position: absolute;
+      background: $warning;
+      height: 1px;
+      content: '';
+      width: 50%;
+      bottom: -1px;
+      left: 0;
+    }
+    .content-item-3:before {
+      position: absolute;
+      background: $warning;
+      height: 1px;
+      content: '';
+      width: 75%;
+      bottom: -1px;
+      left: 0;
+    }
+    .image {
+      right: -88px;
+      top: -45px;
+
+      img {
+        width: 20vw;
+        height: 16vw;
+        max-width: 295px;
+        max-height: 230px;
+      }
+      a {
+        right: 20px;
+        top: 13px;
+      }
+      .btn-light {
+        font-size: 0.5875rem;
+      }
+    }
+  }
+  // ---------- ROW 2 FEATURES ----------
+  .features {
+    .text {
+      ul {
+        list-style: none;
+        color: $success;
+      }
+    }
+    .image {
+      width: 100%;
+      background-image: url(../images/img_02.jpg);
+      background-position: center;
+      background-size: cover ;
+      background-repeat: no-repeat;
+      a {
+        left: 14px;
+        top: 12px;
+      }
+      .btn-light {
+        font-size: 0.5875rem;
+      }
+    }
+  }
+  // ---------- ROW 3 TECHNOLOGY ----------
+  .technology {
+    .cards {
+      height: 300px;
+
+      .left-cards {
+        .jimmy-card {
+          width: 140px;
+          img {
+            width: 100%;
+            height: auto;
+            border-radius: 2% 2% 0% 0%;
+          }
+          .jimmy-card-infos {
+            height: 42px;
+          }
+        }
+        .components-card {
+          width: 140px;
+          height: 56px;
+          h6 {
+            opacity: 0.8;
+          }
+        }
+      }
+      .right-cards {
+        .airbnb-card {
+          width: 140px;
+          text-align: center;
+          img {
+            width: 68px;
+          }
+        }
+        .website-card {
+          width: 140px;
+          text-align: center;
+          img {
+            width: 40px;
+          }
+          .avatars {
+            img {
+              width: 25px;
+              border: 1px solid $white;
+            }
+            .avatar1 {
+              bottom: 10px;
+              left: 42px;
+            }
+            .avatar2 {
+              bottom: 10px;
+              left: 55px;
+            }
+            .avatar3 {
+              bottom: 10px;
+              left: 69px;
+            }
+          }
+        }
+      }
+    }
+    .text {
+      a {
+        color: $primary;
+        h5 {
+          width: fit-content;
+          border-bottom: 1px solid $primary;
+        }
+      }
+    }
+  }
+  // ---------- ROW 4 INSTALL ----------
+  .install {
+    .text {
+      .apps-image {
+        img {
+          width: 120px;
+        }
+      }
+    }
+    .image {
+      width: 100%;
+      background-image: url(../images/img_03.jpg);
+      background-position: center;
+      background-size: cover ;
+      background-repeat: no-repeat;
+      a {
+        left: 14px;
+        top: 12px;
+      }
+      .btn-light {
+        font-size: 0.5875rem;
+      }
+    }
+  }
+  // ---------- BOTTOM FIRST CONTAINER ----------
+  .bottom-first-container {
+    .dark-banner {
+      height: 167px;
+      border-radius: 0px 50px 0px;
+    }
+    .left-infos {
+      width: 31vw;
+    }
+  }
+}
+
+// ---------- SECOND CONTAINER ----------
+.second-container {
+  height: 400px;
+  background-color: $lightgrey;
+  .awards {
+    .cards {
+      a {
+        width: 140px;
+      }
+      .awards-card {
+        width: 140px;
+        height: 163px;
+        text-align: -webkit-center;
+        img {
+          width: 68px;
+        }
+        .learn-more {
+          border-bottom: 2px solid;
+          width: fit-content;
+        }
+        &:hover {
+          transform:scale(1.1);
+          transition: 0.7s ease-in-out;
+        }
+      }
+    }
+  }
+}
+
+.line2 {
+  height: 200px;
+  position: absolute;
+  background-color: inherit;
+  bottom: -2.7vw;
+  right: 0.3vw;
+  width: 101vw;
+  -webkit-transform: rotate(-3deg);
+  z-index: -1;
+}
+
+// -------- CAROUSSEL ----------
+.carousel {
+  .carousel-inner {
+    height: 190px;
+    text-align: -webkit-center;
+  }
+}
+
+.controls-bottom {
+  a {
+    font-size: 18px;
+    opacity: 1;
+  }
+}
+
+
+// ---------- THIRD CONTAINER ----------
+
+// -------- ACCORDION ----------
+
+.faq-accordion-left {
+  width: 50%;
+}
+
+.faq-accordion-right {
+  width: 50%;
+}
+
+.faq-accordion-item {
+  .btn-light {
+    width: 100%;
+    height: 50px;
+    border: 1px solid $lightgrey;
+
+  }
+}
+
+.call-to-actions {
+  a {
+    opacity: 1;
+    padding: 9px 19px;
+  }
+}
+
+.line3 {
+  height: 72px;
+  position: absolute;
+  background-color: $white;
+  top: -4.1vw;
+  right: 0.1vw;
+  width: 101vw;
+  -webkit-transform: rotate(-3deg);
+  z-index: 0;
+}
+
+// ----------- FOOTER -----------
+
+.footer {
+  height: 395px;
+    h5 {
+    color: $white;
+  }
+  h6 {
+    color: $white;
+    opacity: 0.8;
+  }
+  .footer-cta {
+    border-bottom: 1px solid rgba(84, 84, 84, 0.4);
+  }
+  .footer-links {
+    border-bottom: 1px solid rgba(84, 84, 84, 0.4);
+    .odoo-infos {
+      width: 30%;
+      .logo {
+        width: 60px;
+      }
+    }
+    .web-links {
+      width: 40%;
+    }
+  }
+  .footer-credits {
+    h6 {
+      span {
+        opacity: 1;
+      }
+    }
+    .footer-terms {
+      width: 25%;
+    }
+  }
+}
+
+
+
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
